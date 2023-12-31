@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(34, 34, 34, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 50%;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #d1d1d1; /* Light mode background color */
+  transition: background-color 5s, color 5s, border-color 5s; /* Smooth transition */
+}
+
+body.dark {
+  background-color: #0e0e0e; /* Dark mode background color */
+}
+
+/* Apply transitions to text colors and borders */
+body * {
+  transition: color 1s, border-color 1s;
+}
+
+/* Your other global styles */
+.navbar {
+  color: #3d3d3d;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.footer, .text1, .text2, .text3, .title {
+  color: #3d3d3d;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+li .dropdown-menu {
+  display: none;
+}
+
+li.show-dropdown .dropdown-menu {
+  display: block;
+}
+
+.aboutContainer {
+  margin-left: 20vw;
+}
