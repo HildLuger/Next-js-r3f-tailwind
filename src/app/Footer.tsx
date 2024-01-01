@@ -12,6 +12,7 @@ const Footer = () => {
 
   });
 
+
   return (
     <footer className="footer fixed bottom-0 left-0 w-full p-4 text-gray-100 bg-white/5 backdrop-blur-lg border-b border-gray-200/30">
       <div className="text-center">
